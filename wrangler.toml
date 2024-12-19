@@ -1,11 +1,17 @@
-name = "cf-worker-ws-dev"
+name = "sgdo"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
+[[routes]]
+pattern = "sgdo.tomygaiden.my.id"
+custom_domain = true
+[[routes]]
+pattern = "bakrie.ac.id.sgdo.tomygaiden.my.id"
+custom_domain = true
 
 [vars]
 # PROXYIP = "211.230.110.231:50008"
-UUID = "ddc714d3-e21c-496d-b1b6-3bb9a6c6ea15"
+UUID = "f5d09650-b154-4192-97c5-633ea7717364"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
