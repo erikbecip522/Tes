@@ -1,6 +1,6 @@
 import { connect } from "cloudflare:sockets";
 let userID = "f5d09650-b154-4192-97c5-633ea7717364";
-const proxyIPs = ["178.128.91.137"];
+const proxyIPs = ["104.248.145.216"];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 let proxyPort = proxyIP.includes(":") ? proxyIP.split(":")[0x1] : "443";
 let socks5Address = '';
